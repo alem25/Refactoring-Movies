@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="11" failures="0" name="usantatecla.movies.v05.CustomerTest" time="0.006" errors="0" skipped="0">
+<testsuite tests="11" failures="0" name="usantatecla.movies.v05.CustomerTest" time="0.005" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.10+9"/>
@@ -69,11 +69,11 @@
   <testcase classname="usantatecla.movies.v05.CustomerTest" name="rentalTest" time="0"/>
   <testcase classname="usantatecla.movies.v05.CustomerTest" name="regularRental3DayTest" time="0"/>
   <testcase classname="usantatecla.movies.v05.CustomerTest" name="newReleaseRental3DayTest" time="0"/>
-  <testcase classname="usantatecla.movies.v05.CustomerTest" name="childrensRental3DayTest" time="0.001"/>
+  <testcase classname="usantatecla.movies.v05.CustomerTest" name="childrensRental3DayTest" time="0"/>
   <testcase classname="usantatecla.movies.v05.CustomerTest" name="regularRental1DayTest" time="0"/>
   <testcase classname="usantatecla.movies.v05.CustomerTest" name="newReleaseRental1DayTest" time="0"/>
-  <testcase classname="usantatecla.movies.v05.CustomerTest" name="childrensRental1DayTest" time="0.001"/>
+  <testcase classname="usantatecla.movies.v05.CustomerTest" name="childrensRental1DayTest" time="0"/>
   <testcase classname="usantatecla.movies.v05.CustomerTest" name="withoutRentalsTest" time="0"/>
   <testcase classname="usantatecla.movies.v05.CustomerTest" name="childrensRental4DayTest" time="0"/>
-  <testcase classname="usantatecla.movies.v05.CustomerTest" name="regularRental2DayTest" time="0"/>
+  <testcase classname="usantatecla.movies.v05.CustomerTest" name="regularRental2DayTest" time="0.001"/>
 </testsuite>

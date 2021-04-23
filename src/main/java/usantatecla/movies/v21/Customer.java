@@ -25,12 +25,9 @@ public class Customer {
 	}
 
 	public String statement() {
-		Iterator<Rental> rentals = this.rentals.iterator();
 		String result = "Rental Record for " + this.getName() + "\n";
-		while (rentals.hasNext()) {
-			Rental each = rentals.next();
-			result += "\t" + each.getMovie().getTitle() + "\t" + String.valueOf(each.getCharge()) + "\n";
-		}
+		result = this.rentals.stream().map(r -> "\t" + r.getMovie().getTitle() + "\t" + String.valueOf(r.getCharge()) + "\n")
+		.reduce(result, (total, str) -> total + str);
 		result += "Amount owed is " + String.valueOf(this.getTotalCharge()) + "\n";
 		result += "You earned " + String.valueOf(this.getTotalFrequentRenterPoints()) + " frequent renter points";
 		return result;
