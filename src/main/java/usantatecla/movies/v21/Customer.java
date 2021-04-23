@@ -3,6 +3,7 @@ package usantatecla.movies.v21;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.*;
 
 public class Customer {
 
@@ -36,13 +37,7 @@ public class Customer {
 	}
 
 	private double getTotalCharge() {
-		double result = 0;
-		Iterator<Rental> rentals = this.rentals.iterator();
-		while (rentals.hasNext()) {
-			Rental each = rentals.next();
-			result += each.getCharge();
-		}
-		return result;
+		return this.rentals.stream().map(Rental::getCharge).reduce(0.0, (result, charge) -> result + charge);
 	}
 	
 	private int getTotalFrequentRenterPoints() {
