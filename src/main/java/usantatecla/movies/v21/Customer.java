@@ -33,8 +33,7 @@ public class Customer {
 	}
 
 	private String getMovieTitlesAndCharges(String result) {
-		return this.rentals.stream().map(r -> "\t" + r.getMovie().getTitle() + "\t" + String.valueOf(r.getCharge()) + "\n")
-		.reduce(result, (total, str) -> total + str);
+		return this.rentals.stream().map(Rental::getMovieTitleAndCharge).reduce(result, (total, str) -> total + str);
 	}
 
 	private double getTotalCharge() {
