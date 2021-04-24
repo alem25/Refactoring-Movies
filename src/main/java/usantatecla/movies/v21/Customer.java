@@ -26,11 +26,15 @@ public class Customer {
 
 	public String statement() {
 		String result = "Rental Record for " + this.getName() + "\n";
-		result = this.rentals.stream().map(r -> "\t" + r.getMovie().getTitle() + "\t" + String.valueOf(r.getCharge()) + "\n")
-		.reduce(result, (total, str) -> total + str);
+		result = getMovieTitlesAndCharges(result);
 		result += "Amount owed is " + String.valueOf(this.getTotalCharge()) + "\n";
 		result += "You earned " + String.valueOf(this.getTotalFrequentRenterPoints()) + " frequent renter points";
 		return result;
+	}
+
+	private String getMovieTitlesAndCharges(String result) {
+		return this.rentals.stream().map(r -> "\t" + r.getMovie().getTitle() + "\t" + String.valueOf(r.getCharge()) + "\n")
+		.reduce(result, (total, str) -> total + str);
 	}
 
 	private double getTotalCharge() {
