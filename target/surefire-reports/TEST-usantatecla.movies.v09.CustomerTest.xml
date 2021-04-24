@@ -72,8 +72,8 @@
   <testcase classname="usantatecla.movies.v09.CustomerTest" name="childrensRental3DayTest" time="0"/>
   <testcase classname="usantatecla.movies.v09.CustomerTest" name="regularRental1DayTest" time="0"/>
   <testcase classname="usantatecla.movies.v09.CustomerTest" name="newReleaseRental1DayTest" time="0"/>
-  <testcase classname="usantatecla.movies.v09.CustomerTest" name="childrensRental1DayTest" time="0.001"/>
+  <testcase classname="usantatecla.movies.v09.CustomerTest" name="childrensRental1DayTest" time="0"/>
   <testcase classname="usantatecla.movies.v09.CustomerTest" name="withoutRentalsTest" time="0"/>
   <testcase classname="usantatecla.movies.v09.CustomerTest" name="childrensRental4DayTest" time="0"/>
-  <testcase classname="usantatecla.movies.v09.CustomerTest" name="regularRental2DayTest" time="0"/>
+  <testcase classname="usantatecla.movies.v09.CustomerTest" name="regularRental2DayTest" time="0.001"/>
 </testsuite>
