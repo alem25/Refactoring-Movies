@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: usantatecla.movies.v05.CustomerTest
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec

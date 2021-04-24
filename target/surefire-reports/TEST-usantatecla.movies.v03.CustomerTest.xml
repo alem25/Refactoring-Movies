@@ -67,8 +67,8 @@
   </properties>
   <testcase classname="usantatecla.movies.v03.CustomerTest" name="newReleaseRental2DayTest" time="0.004"/>
   <testcase classname="usantatecla.movies.v03.CustomerTest" name="rentalTest" time="0"/>
-  <testcase classname="usantatecla.movies.v03.CustomerTest" name="regularRental3DayTest" time="0"/>
-  <testcase classname="usantatecla.movies.v03.CustomerTest" name="newReleaseRental3DayTest" time="0.001"/>
+  <testcase classname="usantatecla.movies.v03.CustomerTest" name="regularRental3DayTest" time="0.001"/>
+  <testcase classname="usantatecla.movies.v03.CustomerTest" name="newReleaseRental3DayTest" time="0"/>
   <testcase classname="usantatecla.movies.v03.CustomerTest" name="childrensRental3DayTest" time="0"/>
   <testcase classname="usantatecla.movies.v03.CustomerTest" name="regularRental1DayTest" time="0"/>
   <testcase classname="usantatecla.movies.v03.CustomerTest" name="newReleaseRental1DayTest" time="0"/>
