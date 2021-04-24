@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="12" failures="0" name="usantatecla.movies.v21.FrequentPointsTest" time="0.001" errors="0" skipped="0">
+<testsuite tests="12" failures="0" name="usantatecla.movies.v21.FrequentPointsTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.10+9"/>
@@ -75,6 +75,6 @@
   <testcase classname="usantatecla.movies.v21.FrequentPointsTest" name="regularRental3DayFrequentPointsTest" time="0"/>
   <testcase classname="usantatecla.movies.v21.FrequentPointsTest" name="newReleaseRental2DayFrequentPointsTest" time="0"/>
   <testcase classname="usantatecla.movies.v21.FrequentPointsTest" name="childrensRental1DayFrequentPointsTest" time="0"/>
-  <testcase classname="usantatecla.movies.v21.FrequentPointsTest" name="childrensRental3DayFrequentPointsTest" time="0.001"/>
+  <testcase classname="usantatecla.movies.v21.FrequentPointsTest" name="childrensRental3DayFrequentPointsTest" time="0"/>
   <testcase classname="usantatecla.movies.v21.FrequentPointsTest" name="regularRental2DayFrequentPointsTest" time="0"/>
 </testsuite>
